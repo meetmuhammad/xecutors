@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": false,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "incremental": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve"
+  },
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx"
+, "src/pages/terms-conditions.jsx", "next-sitemap.js", "src/pages/case-studies/etravelo.jsx", "src/pages/login.jsx", "src/pages/admin/index.jsx", "src/pages/admin/EditList.jsx", "src/pages/admin/blogs/index.jsx", "src/components/admin/top-menu.jsx", "src/components/admin/side-menu.jsx", "src/components/admin/blogs/EditBlogContent.jsx", "src/components/admin/content.jsx", "src/components/admin/BlogContent.jsx"  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
